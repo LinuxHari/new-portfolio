@@ -1,6 +1,6 @@
 import React from "react";
 
-const Logo = ({ logoRef }: { logoRef: React.RefObject<HTMLDivElement> }) => {
+const Logo = ({ logoRef }: { logoRef: React.RefObject<HTMLDivElement | null> }) => {
     return (
         <div
           ref={logoRef}
