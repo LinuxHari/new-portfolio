@@ -116,7 +116,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-coal/80 to-transparent flex items-end p-8">
                   <div className="w-full flex justify-between items-center translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
                     <span className="font-mono text-xs text-flame">{project.year}</span>
-                    <ExternalLink onClick={() => window.open(project.url)} className="w-5 h-5 text-white cursor-pointer" />
+                    <ExternalLink onClick={() => window.open(project.url, "_blank")} className="w-5 h-5 text-white cursor-pointer" />
                   </div>
                 </div>
               </div>
